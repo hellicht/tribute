@@ -1,0 +1,96 @@
+ {
+  margin:0;
+  padding:0;
+}
+/* ^reset css^
+
+*{
+  border: 1px solid rgba(0, 0, 0, 0.3);
+}
+ ^show borders of elements^
+
+also, need to make elements' size edits for different screens*/
+
+.center, .pictext, footer{
+	text-align:center;
+}
+
+.pictext{
+	background-color:white;
+	
+}
+
+cite, h2{
+	font-style:italic;
+}
+
+h2{
+	font-family:"Arial";
+}
+
+.whole{
+	background-color:#EEE;
+	margin:45px 15px;
+	padding:2px;
+	
+}
+
+.wiki{
+	font-weight:400;
+	font-size: 1.5em;
+}
+
+
+h1{
+	margin:10 px;
+	padding:20px 5px;
+}
+
+h3{
+	padding-top:20px;
+}
+
+footer{
+	border-top:2px lightgray solid;
+	padding-top:20px;
+	margin:20px;
+}
+
+blockquote{
+	margin:25px;
+}
+
+.list{
+	margin-left:30px;
+}
+
+.list, .small, cite, footer{
+	font-size:0.8em;
+}
+
+cite{
+	color:gray;
+	margin:5px;
+}
+
+.bor{
+	font-size:1.5em;
+	font-weight:200;
+}
+
+.pictext, .whole{
+	border-radius:5px;
+}
+
+h1, h2, .post, footer{
+max-width:600px;
+}
+
+/* put content in center, otherwise on left*/
+.post, h1, h2, footer{
+	margin:auto;
+}
+
+.post{
+	padding:5%;
+}
